@@ -1,0 +1,10 @@
+nombre=str(input("Ingresa tu nombre: "))
+materia=str(input("Ingresa el nombre de la materia: "))
+n=int(input("Ingresa la calicacion: "))
+
+print(nombre," en la meteria de ",materia)
+if n>95 and n<100: print("La calificacion ",n," es excelente")
+elif n>85 and n<95: print("La calificacion ",n," es notable")
+elif n>75 and n<84: print("La calificacion ",n," es buena")
+elif n>70 and n<74: print("La calificacion ",n," es suficiente")
+else: print("La calificacion ",n," es reprobatoria")
